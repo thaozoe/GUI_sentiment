@@ -16,7 +16,7 @@ def load_model(model_path):
 
 # Tải mô hình
 models = {
-    "Gradient Boosting Machine (GBM)": load_model('GBM_model.pkl'),
+    # "Gradient Boosting Machine (GBM)": load_model('GBM_model.pkl'),
     "Random Forest": load_model('Randomforest_model.pkl'),
     "Support Vector Machine (SVM)": load_model('SVM_model.pkl')
 }
