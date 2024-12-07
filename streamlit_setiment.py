@@ -40,6 +40,8 @@ def display_file_content(file_path):
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import re
+import nltk
+nltk.download('stopwords')
 
 # Khởi tạo Lemmatizer và stopwords từ NLTK (Tiếng Việt có thể phải tải riêng)
 lemmatizer = WordNetLemmatizer()
@@ -203,8 +205,3 @@ elif choice == 'New Prediction':
             
             if sentiment:
                 st.write(f"**Dự đoán sentiment cho bình luận:** {sentiment}")
-
-
-
-
-
