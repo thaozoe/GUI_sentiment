@@ -1,5 +1,3 @@
-os
-pickle
 streamlit
 seaborn
 streamlit
