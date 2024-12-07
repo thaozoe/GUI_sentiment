@@ -120,7 +120,8 @@ menu = ["Business Objective", "Build Project", "New Prediction"]
 choice = st.sidebar.selectbox('Menu', menu)
 st.sidebar.write("""#### Thành viên thực hiện:
 Nguyễn Thị Mỷ Tiên
-Đặng Thị Thảo""")
+Đặng Thị Thảo
+""")
 st.sidebar.write("""#### Giảng viên hướng dẫn: Cô Khuất Thùy Phương """)
 st.sidebar.write("""#### Ngày báo cáo thực hiện: 16/12/2024""")
 if choice == 'Business Objective': 
