@@ -1,13 +1,11 @@
-
 matplotlib
 seaborn
 scikit-learn
-python
+python 3.10
 underthesea==1.4.0
-pyvi
 wordcloud
 ntlk
-numpy==1.21.2     
-pandas==1.3.5      
+numpy==1.21.2
+pandas==1.3.5
 scikit-learn==1.0.2
 streamlit==1.26.0
