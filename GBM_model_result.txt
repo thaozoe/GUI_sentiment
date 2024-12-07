@@ -1,0 +1,20 @@
+GBM model result:
+
+Classification Report:
+
+    		precision    recall  f1-score   support
+
+    Negative       0.75      0.81      0.78       122
+    Positive       0.95      0.93      0.94       478
+    accuracy                           0.91       600
+   macro avg       0.85      0.87      0.86       600
+weighted avg       0.91      0.91      0.91       600
+
+Accuracy: 	0.9067
+Precision: 	0.9100
+Recall:    	0.9067
+F1-score:  	0.9080
+
+Confusion Matrix:
+[[ 99  23]
+ [ 33 445]]

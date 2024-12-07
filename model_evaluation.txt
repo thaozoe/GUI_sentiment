@@ -1,0 +1,13 @@
+------------------Nhận xét----------------------------
+1.SVM (Accuracy: 0.9117)
+
+Giải thích: SVM (Support Vector Machine) là một thuật toán học máy dùng để phân loại dữ liệu bằng cách tìm một siêu phẳng tối ưu, chia tách các lớp dữ liệu với khoảng cách lớn nhất giữa chúng.Kết quả Accuracy 0.91 cho thấy mô hình này hoạt động tương đối tốt trên dữ liệu này.
+2.GBM (Accuracy: 0.9067)
+
+Giải thích: GBM kết hợp nhiều mô hình cây quyết định yếu (decision trees) để tạo ra một mô hình mạnh mẽ hơn. Mỗi cây trong GBM học cách sửa chữa sai sót của các cây trước đó bằng cách tối ưu hóa gradient của hàm mất mát, giúp giảm thiểu sai số dần dần. tuy accuracy cao 0.9067 nhưng vẫn lép vế hơn 2 mô hình còn lại.
+3.Random Forest (Accuracy: 0.9250)
+
+Giải thích: Random Forest sử dụng nhiều cây quyết định và tạo ra dự đoán dựa trên tổng hợp của các cây này. Mô hình này có Accuracy tốt nhất (0.925).
+Lý do hiệu suất tốt: Random Forest là một mô hình mạnh mẽ và linh hoạt cho các bài toán phân loại với dữ liệu phân loại.Nó có khả năng xử lý các dữ liệu phức tạp và không tuyến tính, đặc biệt hữu ích cho các bài toán Sentiment Analysis.Khả năng tự động xử lý mất cân bằng dữ liệu và tính ổn định trong dự đoán giúp mô hình này đặc biệt phù hợp với bài toán này của chúng ta.
+Kết luận và Lý do
+Chúng ta nên chọn Random Forest cho bài toán này, vì hiệu quả tốt và hoạt động nhanh chóng, sau đó đến SVM và cuối cùng là GBM

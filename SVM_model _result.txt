@@ -1,0 +1,20 @@
+SVM model result:
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negative       0.81      0.74      0.77       122
+    Positive       0.93      0.96      0.95       478
+
+    accuracy                           0.91       600
+   macro avg       0.87      0.85      0.86       600
+weighted avg       0.91      0.91      0.91       600
+
+Accuracy: 0.9117
+Precision: 0.9094
+Recall:    0.9117
+F1-score:  0.9101
+
+Confusion Matrix:
+[[ 90  32]
+ [ 21 457]]
