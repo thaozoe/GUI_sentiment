@@ -2,7 +2,7 @@
 matplotlib
 seaborn
 scikit-learn
-python==3.10.5
+python
 underthesea==1.4.0
 pyvi
 wordcloud
