@@ -7,15 +7,7 @@ from underthesea import word_tokenize
 import matplotlib.pyplot as plt
 from sklearn import metrics
 import seaborn as sns
-import nltk
-nltk.download('wordnet')
-nltk.download('stopwords')
-import nltk
-
-# Tải tài nguyên từ NLTK
-nltk.download('wordnet')  # Tải WordNet cho lemmatization
-nltk.download('stopwords')  # Tải stopwords (nếu cần)
-nltk.download('omw-1.4') 
+ 
 
 # Load models
 def load_model(model_path):
